@@ -31,6 +31,7 @@
               colors: {
                 clifford: '#da373d',
                 'veg-primary':'#179800',
+                'primary-bg':'#EFEBE3',
               },
             },
           },
@@ -40,7 +41,7 @@
 
 
 </head>
-<body>
+<body class="font-sora">
     <header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
         <nav class="md:container mx-auto max-sm:border-b border-[#88C057] mb-6">
             <div class="flex justify-between align-middle my-9">
@@ -74,7 +75,54 @@
     </header>
 
     <main>
+      <section class="my-36 md:container mx-auto">
+        <h5 class="text-veg-primary font-semibold text-4xl mb-12 mx-6">Services</h5>
 
+        <div class="grid justify-items-center grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <!-- CARD-1 -->
+          <div class="card bg-base-100 w-96 bg-primary-bg">
+            <figure class="px-10 pt-10">
+              <img
+                src="c2-assets/service.png"
+                alt="24 hours sevvice"/>
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-semibold text-2xl">24/7 Services </h2>
+              <p class="font-light text-xl">Fresh vegetables available 24/7! Order anytime and enjoy farm-fresh quality at your convenience. We ensure fast delivery and the best selection of seasonal produce.</p>
+            </div>
+          </div>
+
+
+        <!-- CARD-2 -->
+          <div class="card bg-base-100 w-96 bg-primary-bg">
+            <figure class="px-10 pt-10">
+              <img
+                src="c2-assets/delivery.png"
+                alt="Delivery-Service"/>
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-semibold text-2xl">Fast Delivery</h2>
+              <p class="font-light text-xl">Fast and reliable delivery to your doorstep! We ensure your vegetables arrive on time, maintaining the highest quality. Enjoy shopping with our efficient delivery service!</p>
+            </div>
+          </div>
+
+
+        <!-- CARD-3 -->
+          <div class="card bg-base-100 w-96 bg-primary-bg">
+            <figure class="px-10 pt-10">
+              <img
+                src="c2-assets/healthy.png"
+                alt="100% Healthy"/>
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-semibold text-2xl">Healthy Products</h2>
+              <p class="font-light text-xl">Fresh, nutritious, and chemical-free vegetables for a healthier lifestyle! We source only the best quality produce to ensure you get the healthiest. Eat fresh, stay healthy!</p>
+            </div>
+            </div>
+
+
+        </div>
+      </section>
     </main>
     <footer>
 
